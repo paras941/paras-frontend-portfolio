@@ -1,20 +1,20 @@
 # 💼 Personal Portfolio Website
 
-A fully responsive **personal portfolio website** built using **HTML, CSS, and JavaScript**, showcasing projects, technical skills, and frontend development experience with clean UI and smooth interactivity.
+A fully responsive **personal portfolio website** built using **HTML, CSS, and JavaScript**, designed to present projects, technical skills, and frontend development capabilities with a clean interface and smooth user interactions.
 
-🔗 **Live Demo: [Click here](https://my-portfolio-site-9y3tsubmc-paras941s-projects.vercel.app)
+🔗 **Live Demo:** [click here](https://paras-frontend-portfolio.vercel.app)
 
 ---
 
 ## 🧠 Project Overview
 
 | Feature | Description |
-|--------|-------------|
-| Purpose | Showcase projects, skills, and experience |
-| Design | Dark theme, modern UI, smooth animations |
-| Responsiveness | Works on mobile, tablet, and desktop |
-| Animation | Typing effect using Typed.js |
-| Interactivity | Hover effects, dynamic sections |
+|--------|------------|
+| Purpose | Showcase personal projects, skills, and frontend experience |
+| Design | Dark theme with a modern and minimal UI |
+| Responsiveness | Fully responsive across mobile, tablet, and desktop |
+| Animation | Typing animation implemented using Typed.js |
+| Interactivity | Hover effects and dynamically styled sections |
 
 ---
 
@@ -22,23 +22,23 @@ A fully responsive **personal portfolio website** built using **HTML, CSS, and J
 
 | Section | Details |
 |--------|---------|
-| Projects | Card layout with live demo & GitHub links |
-| Skills | Technical stack and tools |
-| Experience | Summary of learning & development journey |
-| Hero Section | Animated typing introduction |
-| UI/UX | Clean layout, consistent typography |
+| Projects | Card-based layout with live demo and GitHub links |
+| Skills | Overview of technical skills and tools |
+| Experience | Learning journey and development progress |
+| Hero Section | Animated typing introduction for first impression |
+| UI/UX | Clean layout with consistent fonts and spacing |
 
 ---
 
 ## 🧱 Tech Stack
 
 | Technology | Usage |
-|-------------|-------|
-| HTML5 | Structure and semantic layout |
-| CSS3 | Styling, animations, responsiveness |
-| JavaScript | DOM interactivity and logic |
-| Typed.js | Typing animation in hero section |
-| Google Fonts (Poppins) | Professional typography |
+|------------|-------|
+| HTML5 | Page structure and semantic markup |
+| CSS3 | Styling, layout, animations, and responsiveness |
+| JavaScript | DOM manipulation and interactive logic |
+| Typed.js | Typing animation effect in hero section |
+| Google Fonts (Poppins) | Clean and professional typography |
 
 ---
 
@@ -47,11 +47,11 @@ A fully responsive **personal portfolio website** built using **HTML, CSS, and J
 | File / Folder | Purpose |
 |---------------|---------|
 | `index.html` | Main webpage structure |
-| `style.css` | Styling and responsive layout |
-| `web.png` | Hero section image |
-| `leetcode.png` | Project thumbnail |
-| `stopwatch.png` | Project thumbnail |
-| `dev.jpg` | Experience section icon |
+| `style.css` | Styling and responsive design |
+| `web.png` | Hero section image asset |
+| `leetcode.png` | Project preview thumbnail |
+| `stopwatch.png` | Project preview thumbnail |
+| `dev.jpg` | Experience section image |
 | `README.md` | Project documentation |
 
 ---
