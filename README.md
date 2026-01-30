@@ -2,7 +2,7 @@
 
 A fully responsive **personal portfolio website** built using **HTML, CSS, and JavaScript**, showcasing projects, technical skills, and frontend development experience with clean UI and smooth interactivity.
 
-🔗 **Live Demo: [Click here](https://my-portfolio-site-9y3tsubmc-paras941s-projects.vercel.app)
+
 
 ---
 
