@@ -12,7 +12,7 @@ const projects = [
     description:
       'A web-based tool to display LeetCode user statistics and visualize progress. Built with HTML, CSS, and JavaScript (Fetch API).',
     liveUrl: 'https://paras941.github.io/LeetMetric/',
-    githubUrl: 'https://github.com/paras941',
+    githubUrl: 'https://github.com/paras941/LeetMetric',
   },
   {
     image: stopwatchImage,
@@ -20,7 +20,7 @@ const projects = [
     description:
       'A sleek and responsive stopwatch application with lap functionality, created using vanilla JavaScript, HTML, and CSS.',
     liveUrl: 'https://paras941.github.io/vanilla-js-stopwatch/',
-    githubUrl: 'https://github.com/paras941',
+    githubUrl: 'https://github.com/paras941/vanilla-js-stopwatch',
   },
 
   {
