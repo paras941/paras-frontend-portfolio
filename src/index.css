@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 240 100% 9%;
+    --foreground: 0 0% 100%;
+
+    --card: 240 86% 14%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 240 86% 14%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 270 70% 70%;
+    --primary-foreground: 240 100% 9%;
+
+    --secondary: 240 94% 21%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 50% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 270 70% 70%;
+    --accent-foreground: 240 100% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 50% 25%;
+    --input: 240 50% 25%;
+    --ring: 270 70% 70%;
+
+    --radius: 0.75rem;
+
+   
+    --nav-bg: 240 94% 21%;
+    --gradient-purple: linear-gradient(135deg, hsl(270 70% 70%), hsl(330 70% 70%));
+    --gradient-shimmer: linear-gradient(90deg, hsl(240 100% 9%), hsl(240 40% 65%), hsl(240 100% 9%));
+    --glow-purple: 0 0 30px hsl(270 70% 70% / 0.4);
+  }
+
+  .dark {
+    --background: 240 100% 9%;
+    --foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-purple);
+  }
+
+  .gradient-shimmer {
+    background-image: var(--gradient-shimmer);
+  }
+
+  .glow-purple {
+    box-shadow: var(--glow-purple);
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-foreground no-underline transition-all duration-300 relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .nav-link:hover {
+    @apply text-primary scale-110;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-3;
+    box-shadow: 0 25px 50px -12px hsl(270 70% 70% / 0.3);
+  }
+
+  .input-focus {
+    @apply transition-all duration-300;
+  }
+
+  .input-focus:focus {
+    @apply outline-none border-primary scale-[1.02];
+    box-shadow: 0 0 8px hsl(270 70% 70% / 0.5);
+  }
+}
