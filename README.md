@@ -1,64 +1,8 @@
-# 💼 Personal Portfolio Website
-
-A fully responsive **personal portfolio website** built using **HTML, CSS, and JavaScript**, showcasing projects, technical skills, and frontend development experience with clean UI and smooth interactivity.
-
-🔗 Live Demo: [click here](https://paras-frontend-portfolio.vercel.app)
-
----
-
-## 🧠 Project Overview
-
-| Feature | Description |
-|--------|-------------|
-| Purpose | Showcase projects, skills, and experience |
-| Design | Dark theme, modern UI, smooth animations |
-| Responsiveness | Works on mobile, tablet, and desktop |
-| Animation | Typing effect using Typed.js |
-| Interactivity | Hover effects, dynamic sections |
-
----
-
-## 🧩 Key Highlights
-
-| Section | Details |
-|--------|---------|
-| Projects | Card layout with live demo & GitHub links |
-| Skills | Technical stack and tools |
-| Experience | Summary of learning & development journey |
-| Hero Section | Animated typing introduction |
-| UI/UX | Clean layout, consistent typography |
-
----
-
-## 🧱 Tech Stack
-
-| Technology | Usage |
-|-------------|-------|
-| HTML5 | Structure and semantic layout |
-| CSS3 | Styling, animations, responsiveness |
-| JavaScript | DOM interactivity and logic |
-| Typed.js | Typing animation in hero section |
-| Google Fonts (Poppins) | Professional typography |
-
----
-
-## 📁 Folder Structure
-
-| File / Folder | Purpose |
-|---------------|---------|
-| `index.html` | Main webpage structure |
-| `style.css` | Styling and responsive layout |
-| `web.png` | Hero section image |
-| `leetcode.png` | Project thumbnail |
-| `stopwatch.png` | Project thumbnail |
-| `dev.jpg` | Experience section icon |
-| `README.md` | Project documentation |
-
----
-
-## 🪶 License
-
-| Type | Details |
-|------|---------|
-| License | MIT License |
-| Usage | Free to use, modify, and distribute |
+Folder / File,Description
+src/components/,Reusable UI atoms and complex organisms.
+src/hooks/,Custom React hooks for logic abstraction.
+src/pages/,Main route views and page layouts.
+src/lib/,Utility functions and shared configurations.
+src/assets/,Static media like images and global icons.
+tailwind.config.ts,Custom theme extensions and design tokens.
+components.json,Configuration for Radix/Shadcn components.
