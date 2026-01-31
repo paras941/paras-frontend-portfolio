@@ -4,7 +4,7 @@ import heroImage from '@/assets/hero-illustration.png';
 
 const Hero = () => {
   const typedText = useTypingEffect({
-    strings: ['Frontend Developer', 'Web Designer', 'Tech Explorer'],
+    strings: ['Frontend Developer', 'Backend Developer', 'Tech Explorer','Artificial Intelligence'],
     typeSpeed: 70,
     backSpeed: 50,
     loop: true,
